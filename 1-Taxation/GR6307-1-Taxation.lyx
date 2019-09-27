@@ -7275,7 +7275,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Substitution between Tax Avoidance and Tax Evasion?
+Alstadsæter et al.
+ (2018): Tax Avoidance and Tax Evasion?
 \end_layout
 
 \end_inset
@@ -7354,7 +7355,8 @@ introduction of personal dividend tax in 2006 incentivized people to pay
 status open
 
 \begin_layout Plain Layout
-Data
+Alstadsæter et al.
+ (2018): Data
 \end_layout
 
 \end_inset
@@ -7398,7 +7400,8 @@ Other items, such as foreign and unlisted securities, are self-reported
 status open
 
 \begin_layout Plain Layout
-Model
+Alstadsæter et al.
+ (2018): Model
 \end_layout
 
 \end_inset
@@ -7457,7 +7460,8 @@ time and year fixed effects
 status open
 
 \begin_layout Plain Layout
-Results on Tax Evasion
+Alstadsæter et al.
+ (2018): Results on Tax Evasion
 \end_layout
 
 \end_inset
@@ -7493,7 +7497,8 @@ Results on Tax Evasion
 status open
 
 \begin_layout Plain Layout
-Results on Tax Avoidance
+Alstadsæter et al.
+ (2018): Results on Tax Avoidance
 \end_layout
 
 \end_inset
@@ -8477,6 +8482,101 @@ Dates of passage and implementation of IDBs
 status open
 
 \begin_layout Plain Layout
+Jensen (2019): Methodology
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Code employee (E) if employment relation generates information trail relevant
+ for tax enforcement
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Third party reporting
+\end_layout
+
+\begin_layout Itemize
+Formal labor contracts
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Self-employed (SE) include domestic workers, non-registered family rm employees,
+ casual daily wage laborers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+informal work
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+within country the employee-share of the economically active workforce is
+ increasing through the income distribution, and over development the employee-s
+hare is increasing gradually further down the income distribution.
+ 
+\end_layout
+
+\begin_layout Enumerate
+the exemption threshold gradually moves down the income distribution, tracking
+ increases in employee-share locally to its left.
+ 
+\end_layout
+
+\begin_layout Enumerate
+the exemption threshold is systematically located such that it maximizes
+ the employee-share above the threshold, producing a tax base that is constantly
+ saturated in its employee-composition.
+ 
+\end_layout
+
+\begin_layout Enumerate
+close association between size of tax base and level of income tax collection
+ (relative to GDP), at all levels of development.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Jensen (2019): Stylized Facts
 \end_layout
 
@@ -8733,6 +8833,52 @@ Jensen (2019): Stylized Facts
 \begin_inset Separator plain
 \end_inset
 
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Confounding Subsistence threshold
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\uparrow$
+\end_inset
+
+ employee-share –> 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+exemption threshold -> 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+tax base - if this is the mechanism, why does the exemption threshold increase
+ with development?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename Jensen 16.png
+	lyxscale 50
+	width 80pheight%
+	height 80pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
