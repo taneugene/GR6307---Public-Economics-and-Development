@@ -3000,14 +3000,256 @@ Hendren & Sprung-Keyser (2019): Overview
 \end_inset
 
 
+\begin_inset Formula $ $
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\ldots$
+A unified welfare analysis of government policies
+\end_layout
+
+\begin_layout Itemize
+Policies (especially in different domains) use different measures of success.
+ E.g.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+cost per life saved, 
+\end_layout
+
+\begin_layout Itemize
+implied marginal excess burden or the marginal cost of funds, 
+\end_layout
+
+\begin_layout Itemize
+cost per enrollment, 
+\end_layout
+
+\begin_layout Itemize
+social benefit-cost ratio 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Paper tries to unify these analysis into a common unit for comparison.
+ 
+\end_layout
+
+\begin_layout Itemize
+MVPF – ratio of benefits to net government costs.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
-Over to you guys
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Marginal Value of Public Funds (MVPF)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Definition: Shadow price of government of delivering welfare to the beneficiarie
+s of the policy.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+i.e.
+ welfare per unit of additional government budget at the margin; or value
+ of expenditure over its resource cost 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+MVPF = 1: cash transfers, value expenditure at its resource cost 
+\end_layout
+
+\begin_layout Itemize
+MVPF = infinite: costless government programs/ programs with large positive
+ fiscal externalities 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Key equation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The key equation is:
+\begin_inset Formula 
+\[
+\frac{dW}{dp_{j}}=\sum_{i}\psi_{i}\frac{dU_{i}}{dp_{j}}=\sum_{i}\eta_{i}WTP_{i}^{j}=\bar{\eta_{j}}\sum_{i}WTP_{i}^{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+W is the weighted welfare.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\psi_{i}$
+\end_inset
+
+ are weights
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\eta=\lambda\psi,$
+\end_inset
+
+social marginal utility = marginal utility per dollar * welfare weights
+\end_layout
+
+\begin_layout Itemize
+Alternative interpretation: willingness to pay over the value of public
+ funds.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Key Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Marginal changes, privately optimal choices 
+\end_layout
+
+\begin_layout Itemize
+Envelope theorem – in response to the marginal policy change, agents do
+ not make behavioral changes in response.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Envelope theorem might fail with non-marginal changes and non-optimizing
+ agents 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Non-marginal changes could induce behavioral changes with large implications
+ for welfare –> Need to include the benefits to marginal recipients 
+\end_layout
+
+\begin_layout Itemize
+Non-optimizing agents –> first order welfare effects 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Key Findings
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Generally, MVPFs decrease with age 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Early interventions mean that children can repay $ back to the government
+ in fiscal benefits over time –> High MVPFs for policies targeting 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Exceptions for child policies: job training and college subsidies that don’t
+ lead to increases in attainment, disabled children and families.
+ 
+\end_layout
+
+\begin_layout Itemize
+Exceptions for adult policies: Reductions in top marginal tax rates.
+ 
+\end_layout
+
+\begin_layout Itemize
+Several examples to calculate the MVPF from different estimates 
+\end_layout
+
+\begin_layout Itemize
+Robustness to discount rates,fixed forecast, WTP, long-run estimates 
 \end_layout
 
 \end_deeper
