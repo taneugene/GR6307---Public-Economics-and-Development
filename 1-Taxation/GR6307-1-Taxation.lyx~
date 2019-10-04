@@ -231,7 +231,7 @@ Michael Best
 \end_layout
 
 \begin_layout Date
-Spring 2019
+Fall 2019
 \begin_inset Newline newline
 \end_inset
 
@@ -7232,6 +7232,895 @@ Alstadsæter et al.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Alstadsæter et al.
+ (2018): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Tax Evasion and Tax Avoidance
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Tax Avoidance and Tax Evasion?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tax Evasion - Storing assets in another country and then not reporting it
+ to authorities
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tax amnesty program where taxpayers who voluntary disclose assets hidden
+ abroad would not pay any penalties and have no criminal sanctions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not used much until 2008, when policies to reduce offshore tax evasion
+\end_layout
+
+\begin_layout Itemize
+Condition: sufficient information about wealth and income to assess taxes
+ owed 'up to 10 years' back in time.
+\end_layout
+
+\begin_layout Itemize
+1485 people used amnesty, average participant had $3mil without accounting
+ for offshore assets they disclosed
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Tax Avoidance - legal 'loopholes' that allow avoiding taxes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Deferring taxes on capital income by holding assets in separate legal entities
+ (personal holding companies)
+\end_layout
+
+\begin_layout Itemize
+Investing in low-tax unlisted shares and real estate
+\end_layout
+
+\begin_layout Itemize
+avoid norwegian taxes by moving tax base to another country
+\end_layout
+
+\begin_layout Itemize
+Wealth tax rebate if combined wealth and income tax liabilities exceeded
+ 80% of the taxpayer's income (untested)
+\end_layout
+
+\begin_layout Itemize
+introduction of personal dividend tax in 2006 incentivized people to pay
+ out taxes in 2005 (untested)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tax on net wealth means rich data:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+detailed decomposition on asset classes such as deposits, housing, bonds,
+ equities, and mutual fund shares.
+ 
+\end_layout
+
+\begin_layout Itemize
+tax authorities receive information from third parties, such as employers
+ and banks.
+\end_layout
+
+\begin_layout Itemize
+Other items, such as foreign and unlisted securities, are self-reported
+ by the taxpayers.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Event-study framework
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estimate how wealth, income, tax liabilities change evolve around the time
+ hidden assets are disclosed
+\begin_inset Formula 
+\[
+log(Y_{it})=\alpha_{i}+\gamma_{t}+X'_{it}\psi+\sum_{k}\beta_{k}D_{it}^{k}+u_{it}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+k and t are both time - t in {2008...2016}, k is relative to year of 'event'
+ - disclosure reference year.
+ 
+\end_layout
+
+\begin_layout Itemize
+time and year fixed effects
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\psi$
+\end_inset
+
+ non-parametric controls for demographics to be able to compare against
+ control
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Results on Tax Evasion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename alstaeder2018_2.png
+	width 100page%
+	height 80pheight%
+	keepAspectRatio
+	BoundingBox 0bp 400bp 962bp 1210bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Alstadsæter et al.
+ (2018): Results on Tax Avoidance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename alstaeder2018_3.png
+	width 100page%
+	height 80pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+Suárez Serrato (2018): 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Unintended Consequences of Eliminating Tax Havens
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Timeline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1921 - Income of US multinationals in Puerto Rico exempt from income tax
+\end_layout
+
+\begin_layout Itemize
+1976 - replacement of exemption with tax credit
+\end_layout
+
+\begin_layout Itemize
+1996 - Repeal of S936 - most firms tax credit dropped to 60%
+\end_layout
+
+\begin_layout Itemize
+1998 - most firm's tax credit dropped to 40%
+\end_layout
+
+\begin_layout Itemize
+2006 - full phase out
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename serrato1.png
+	lyxscale 20
+	width 40pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Test the following hypothesized effects of the 'effective tax cut'.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Decrease profit shifting toward Puerto Rico and increase reported profiability
+ in the US
+\end_layout
+
+\begin_layout Itemize
+Lower global investment and employment for exposed firms 
+\end_layout
+
+\begin_layout Itemize
+Shift Investment and employment from the US towards lower-tax countries
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Theory
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Based on the following propositions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms solve a 'tax planning problem' 
+\begin_inset Formula $\max_{r_{j}}\sum_{j}K_{j}[(1-t_{j})r_{j}-\rho-\frac{{(r_{j}-\bar{f_{j}})^{2}}}{2a}]$
+\end_inset
+
+ such that 
+\begin_inset Formula $\sum_{j}\bar{f_{j}}K_{j}=\sum_{j}r_{j}K_{j}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Firms over-report (under-report) profits (
+\begin_inset Formula $r_{j}-\bar{f_{j}}$
+\end_inset
+
+) in countries j where the corporate tax rate is below (above) the capital-weigh
+ted average.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $r_{j}=\bar{f_{j}}+a(\tilde{t}-t_{j})$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Profit shifting lowers the UCC (cost of capital)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $(1-t_{j})f'_{j}(K_{j})=\rho-\frac{a(\tilde{t}-t_{j})^{2}}{2}=\tilde{\rho}<\rho$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When tax in a country increases, investment decreases in a country j that
+ has a higher tax than the capital-weighted average tax rate, and investment
+ increases in countries with a lower tax rate 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $sign(\frac{\delta K_{j}}{\delta t_{i}})=sign(\tilde{t}-t_{j})$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When labor and capital are complements, labor moves in the same direction
+ as capital above.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $sign(\frac{\delta L_{j}}{\delta t_{i}})=sign\big((\tilde{t}-t_{j})\times\frac{\delta^{2}f_{j}(K_{j,}L_{j})}{\delta K_{j}\delta L_{j}}\big)$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm-level
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+NETS - National Establishment Time-Series
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+682 US firms with establishments in puerto Rico in 1995, with 11 mil workers
+ in 1995
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Compustat/Capital IQ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm-level investment - above firms responsible for 16.1% of total 
+\end_layout
+
+\begin_layout Itemize
+S936 tax credits accounted for 10.5% of total federal taxes
+\end_layout
+
+\begin_layout Itemize
+Repeal is about 8% of total revenue, 232 billion in sales.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Annual Survey of Manufacturers 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Isolated investment in the US at the state level
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+'Geographic Exposure'
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fraction of establishements in each US county belonging to exposed firms
+ (0-5% range)
+\end_layout
+
+\begin_layout Itemize
+Exposure to 936 not correlated with...
+ anything 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Labor Market outcomes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Quarterly census of employment and wages (industry by county level)
+\end_layout
+
+\begin_layout Itemize
+BEA employment and income, public transfers
+\end_layout
+
+\begin_layout Itemize
+IRS tabulations on filers and taxable income, 
+\end_layout
+
+\begin_layout Itemize
+American Community Survey, US Census
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Average wage rates controlling for changes in demographic charactersistics
+ conditional on education levels, 
+\end_layout
+
+\begin_layout Itemize
+retnal costs, home values
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Impacts on Investment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Formula $\frac{I_{ct}}{K_{c,1990-1995}}=\alpha_{i}+\gamma_{t}+\beta^{t}Exposure936_{c}+\epsilon_{ict}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+LHS: Ratio of Capital investment to pre-reform capital of the firm
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\beta^{t}$
+\end_inset
+
+ year specific effects on dummy
+\end_layout
+
+\begin_layout Itemize
+Industry and year FEs, Clustered errors
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename serrato2.png
+	lyxscale 20
+	height 40pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Decrease in TOTAL investment, not just domestic investment
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Impacts on Investment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Increase in total investment 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{ForInvShare_{ct}-ForInvShare_{c1995}}{ForInvShare_{c1995}}=\alpha_{i}+\gamma_{t}+\beta^{t}Exposure936_{c}+\epsilon_{ict}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename serrato3.png
+	lyxscale 20
+	height 40pheight%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename serrato4.png
+	lyxscale 20
+	width 50page%
+	height 50pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Impacts on Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename serrato5.png
+	height 80pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Impacts on Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename serrato6.png
+	height 80pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Impacts on Employment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename serrato7.png
+	height 80pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Suárez Serrato (2018): Conclusions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms didn't have access to multiple substitutiable tax havens, they might
+ do now
+\end_layout
+
+\begin_layout Itemize
+Also affects stock prices, some sectors more than others based on their
+ 'mobility' or tangiblilitiy
+\end_layout
+
+\begin_layout Itemize
+Limits to profit shiting reduces investment by multinationals
+\end_layout
+
+\begin_layout Itemize
+Limiting profit shifting reduces economic growth, can backfire as they might
+ be harmful to the economy.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Section
 \begin_inset Argument 2
 status open
@@ -8190,6 +9079,101 @@ Dates of passage and implementation of IDBs
 status open
 
 \begin_layout Plain Layout
+Jensen (2019): Methodology
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Code employee (E) if employment relation generates information trail relevant
+ for tax enforcement
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Third party reporting
+\end_layout
+
+\begin_layout Itemize
+Formal labor contracts
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Self-employed (SE) include domestic workers, non-registered family rm employees,
+ casual daily wage laborers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+informal work
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Stylized Facts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+within country the employee-share of the economically active workforce is
+ increasing through the income distribution, and over development the employee-s
+hare is increasing gradually further down the income distribution.
+ 
+\end_layout
+
+\begin_layout Enumerate
+the exemption threshold gradually moves down the income distribution, tracking
+ increases in employee-share locally to its left.
+ 
+\end_layout
+
+\begin_layout Enumerate
+the exemption threshold is systematically located such that it maximizes
+ the employee-share above the threshold, producing a tax base that is constantly
+ saturated in its employee-composition.
+ 
+\end_layout
+
+\begin_layout Enumerate
+close association between size of tax base and level of income tax collection
+ (relative to GDP), at all levels of development.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Jensen (2019): Stylized Facts
 \end_layout
 
@@ -8446,6 +9430,54 @@ Jensen (2019): Stylized Facts
 \begin_inset Separator plain
 \end_inset
 
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Jensen (2019): Confounding Subsistence threshold
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\uparrow$
+\end_inset
+
+ employee-share –> 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+exemption threshold -> 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+tax base - if this is the mechanism, why does the exemption threshold increase
+ with development?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename Jensen 16.png
+	lyxscale 50
+	width 80pheight%
+	height 80pheight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
 
 \end_layout
 
