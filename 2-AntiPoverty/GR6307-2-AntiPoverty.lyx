@@ -120,7 +120,7 @@
 \use_dash_ligatures false
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -9096,6 +9096,516 @@ Targeting in Developing Countries
 Targeting in Developing Countries: Who gets the Benefit?
 \end_layout
 
+\begin_layout Subsection
+Barnwal (IGC 2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Curbing Leakage in Public Programs
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ [ET]
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Overview (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Policy change: Direct Benefit Transfer (DBT) to verified enrollees of a
+ fuel subsidy benefit enforced and then removed.
+ Direct Benefit Transfer for LPG (DBTL) available subsidized to households,
+ LPG for commercial use is taxed.
+ 
+\end_layout
+
+\begin_layout Itemize
+'Ghost beneficiaries' who deliver subsidized fuel to black market - so enforceme
+nt increases prices in black market.
+ Black market prices going up induce firms to buy formally.
+ Easy to counterfeit.
+ But DBT has biometrics-based unique ID (fingerprints, iris scan)
+\end_layout
+
+\begin_layout Itemize
+DBT an 'enforcement' mechanism: minimizes role of local officials in disbursing
+ subsidies and increase the cost of carrying out transfers in the name of
+ ghost and duplicate beneficiaries
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename barnwal0.png
+	height 30pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Overview (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dataset with 23 million transactions and black-market fuel prices, 3.79 million
+ households in 509 districts, LPG monthly data from 3000 distributors.
+ 
+\end_layout
+
+\begin_layout Itemize
+Simulated Customers to survey 'gas hawkers' (performing dpoorstep deliveries
+ (in 89 districts, 11 states).
+ 
+\end_layout
+
+\begin_layout Itemize
+11-14% less 'domestic' LPG purchases during DBT period, which then converge
+ to controls after.
+ 
+\end_layout
+
+\begin_layout Itemize
+Black market 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+13-19% prices after DBT removal, 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+9% fuel purchases in formal sector by firms.
+\end_layout
+
+\begin_layout Itemize
+Beneficiaries that drew the most subsisdies didn't comply (i.e.
+ are ghosts), genuine households tend not to resell.
+ Simple governance reform that take away monitoring and authentication tasks
+ from intermediate agents can contain fraud and corruption.
+\end_layout
+
+\begin_layout Itemize
+Barriers/ Frictions for real housholds to resell: Visually different containers
+ and illegal redistribution laws.
+ Cap on subsidized fuel, and search costs.
+ But only delivery men hold permits to carry both types of containers.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Model (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\paragraph_spacing single
+We can add and subtract ghost demand to represent transfers from households
+ to firms.
+ 
+\begin_inset Formula 
+\[
+D_{total}=D_{household}+D_{ghost}+D_{firm}-D_{ghost}
+\]
+
+\end_inset
+
+Black market supply and demand is conditional on enforcement C.
+ DBTL increases 
+\begin_inset Formula $C_{ghost}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset Formula 
+\[
+S_{bm}(P-C_{ghost})=D_{bm}(P+C_{firm})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+Firms have an outside option and so will purchase fuel in the formal sector
+ when Black market prices are too high:
+\begin_inset Formula 
+\[
+D_{firm}:D_{f}[min(p+t,P+C_{firm})]
+\]
+
+\end_inset
+
+So before the DBTL policy, the price 'ceiling and floor' are determined
+ by subsidy diversion opportunities:
+\begin_inset Formula 
+\[
+P\in(p-s+C_{ghost},p+t-C_{firm})
+\]
+
+\end_inset
+
+But after there are no more subsidies to the ghost beneficiaries:
+\begin_inset Formula 
+\[
+P_{DBTL}\in(p+C_{ghost},p+t-C_{firm}).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Empirical Model (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Diff-in-diff
+\begin_inset Formula 
+\[
+Y_{idm}=\alpha+\beta Post_{m}*DBTL_{d}+\mu_{i}+\pi_{m}+\epsilon_{idm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Household i in district d in month m.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Post_{m}$
+\end_inset
+
+ is the dummy for treatment period: 1 after DBTL enforced and 0 otherwise
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $DBTL_{d}$
+\end_inset
+
+ dummy for districts reflecting treatment status: some districts did not
+ have DBTL roll out
+\end_layout
+
+\begin_layout Itemize
+clustered standard errors
+\end_layout
+
+\begin_layout Standard
+Dynamic Response
+\begin_inset Formula 
+\[
+Y_{idm}=\alpha+\beta.DBTL_{d}\theta_{m}+\theta_{m}+\mu_{i}+\pi_{m}+\epsilon_{idm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Results (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename barnwal3.png
+	lyxscale 20
+	height 70pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Results (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename barnwal4.png
+	lyxscale 20
+	height 70pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Results (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename barnwal5.png
+	lyxscale 20
+	height 70pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Results (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename barnwal6.png
+	lyxscale 20
+	height 70pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Results (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename barnwal1.png
+	lyxscale 20
+	height 70pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barnwal (2017): Results (ET)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename barnwal2.png
+	lyxscale 20
+	height 70pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Alatas, Banerjee, Hanna, Olken & Tobias (AER 2012) 
 \begin_inset ERT
