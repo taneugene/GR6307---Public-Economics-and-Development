@@ -7632,6 +7632,563 @@ Deshpande & Li (2017): Welfare
 
 \end_deeper
 \begin_layout Subsection
+Deshpande & Li (2017) [ET] 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Who is Screened Out? Application Costs and the Targeting of Disability Programs
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Overview [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nichols and Zeckhauser (1982): Application costs can improve targeting by
+ screening out high-ability individuals with a high opportunity cost of
+ time.
+ Productive efficiency loss (lost time) is more than offset by the gain
+ in targeting efficiency (less wastage).
+\end_layout
+
+\begin_layout Itemize
+vs.
+ Bertrand, Mullainathan and Shafir (2004): Hassles may discourage those
+ most in need.
+ Inverse U curve? Most likely depends on type of hassle and characteristics
+ of the marginal population.
+ 
+\end_layout
+
+\begin_layout Itemize
+Empirically test for this debate in Disability Programs using the timing
+ of closings of SSA field offices that provide assistance with filing disability
+ applications.
+ 
+\end_layout
+
+\begin_layout Itemize
+Estimate the effect of increase in application costs on the number and compositi
+on of disability applicants and recipients using diff-in-diff.
+ 
+\end_layout
+
+\begin_layout Itemize
+Find that disability recipients declines, reduces targeting efficiency...
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): SSA Office Closures [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 2.png
+	lyxscale 30
+	scale 22
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Model Framework [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Application costs increase from 
+\begin_inset Formula $\eta$
+\end_inset
+
+ to 
+\begin_inset Formula $\eta^{\prime}>\eta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Assuming disability inspectors don't change their standards, targeting efficienc
+y increases iff
+\begin_inset Formula 
+\[
+\mathbb{P}\left(R\vert A,\eta^{\prime}\right)>\mathbb{P}\left(R\vert A,\eta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mathbb{P}\left(R\vert A,\eta\right)$
+\end_inset
+
+: probability of receiving benefits conditional on applying.
+\end_layout
+
+\begin_layout Itemize
+Rewrite: Targeting improves iff
+\begin_inset Formula 
+\[
+1<\frac{\mathbb{P}\left(R\vert A,\eta^{\prime}\right)}{\mathbb{P}\left(R\vert A,\eta\right)}=\frac{\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)}{\mathbb{P}\left(A\vert\eta^{\prime}\right)}}{\frac{\mathbb{P}\left(R\vert\eta\right)}{\mathbb{P}\left(A\vert\eta\right)}}=\frac{\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)}{\mathbb{P}\left(R\vert\eta\right)}}{\frac{\mathbb{P}\left(A\vert\eta^{\prime}\right)}{\mathbb{P}\left(A\vert\eta\right)}}=\frac{\Delta_{R}+1}{\Delta_{A}=1}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta_{R}=\frac{\mathbb{P}\left(R\vert\eta^{\prime}\right)-\mathbb{P}\left(R\vert\eta\right)}{\mathbb{P}\left(R\vert\eta\right)}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta_{A}=\frac{\mathbb{P}\left(A\vert\eta^{\prime}\right)-\mathbb{P}\left(A\vert\eta\right)}{\mathbb{P}\left(A\vert\eta\right)}$
+\end_inset
+
+ = % change in recipients/applicants resulting frrom the closing.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Context [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SSDI (Social Security Disability Insurance) and SSI (Supplemental Security
+ Income)
+\end_layout
+
+\begin_layout Itemize
+SSDI (Online/Phone/SSA Field Office), processed by field office assigned
+ to applicant zip code.
+ 
+\end_layout
+
+\begin_layout Itemize
+Verified by disability examiner at DDS (disability determination services
+ office)
+\end_layout
+
+\begin_layout Itemize
+Disability claims take the most time of SSA staff.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Idea and Data [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use field office closings to study the effect of application costs on selection
+ into disability programs.
+ 
+\end_layout
+
+\begin_layout Itemize
+BUT SSA might be closing offices in areas where disability applications
+ are already falling or where composition of disability applicants is already
+ changing.
+ –> 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Treatment: Areas that expeirience a closing today.
+ 
+\end_layout
+
+\begin_layout Itemize
+Control: Areas that experience a closing in the future 
+\end_layout
+
+\begin_layout Itemize
+(assumes exact timing of the closing is uncorrelated with changes in the
+ number and type of disability applicants.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Data: SSA Application data + disability diecision, incl ZIP, + SSA data
+ field office data, walk-in wait times, number of staff members, volume
+ of calls
+\end_layout
+
+\begin_layout Itemize
+Constructed: great-circle + Google Map Driving distance to assign nearest,
+ second nearest, and third-nearest field offices.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Empirical Strategy [ET] 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y_{isct}=\alpha_{i}+\gamma_{st}+\sum_{\tau}D_{ct}^{\tau}+\sum\delta_{\tau}\left(Treated_{ic}\times D_{ct}^{\tau}\right)+\epsilon_{isct}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+zip i in state s for closing c in quarter t, 
+\begin_inset Formula $D_{ct}^{\tau}$
+\end_inset
+
+ indicator variables before and after the closing.
+ 
+\end_layout
+
+\begin_layout Itemize
+Treated indicator for whether it is the zip that actually closed for that
+ c.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y_{isct}=\alpha_{i}+\gamma_{st}+\sum_{\tau}D_{ct}^{\tau}+\beta(Treated_{ic}\times Post_{ct})+\kappa\left(Treated_{ic}\times Zero_{ct}\right)+\epsilon_{isct}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Post is indicator if quarter t is after the closing and Zero is an indicator
+ equal to 1 if quarter t is the quarter of the closing.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Results [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 3.png
+	lyxscale 40
+	scale 23
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 4.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 5.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Subgroups [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 6.png
+	lyxscale 40
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deshpande & Li (2017): Spillovers [ET]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Deshpande Li 7.png
+	lyxscale 40
+	scale 26
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
 Finkelstein & Notowidigdo (2019) 
 \begin_inset ERT
 status open
