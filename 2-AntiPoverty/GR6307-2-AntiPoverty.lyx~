@@ -10151,11 +10151,52 @@ Barnwal (2017): Results (ET)
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset Graphics
-	filename barnwal2.png
-	lyxscale 20
-	height 70pheight%
+\begin_layout Itemize
+To make statements about social welfare impact of interventions need 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $G_{j}^{A}-G_{j}^{-A}$
+\end_inset
+
+.
+ Use 
+\begin_inset Formula $-g$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mu_{J}$
+\end_inset
+
+.
+ First-order approximation to utility yields approximations 
+\begin_inset Formula $\mu_{H}\approx\xi_{H}\pi_{H}\epsilon_{H}B_{min}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{L}\approx\xi_{L}\pi_{L}\epsilon_{L}\overline{B}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Write welfare effect as ratio of marginal benefits (private welfare increase)
+ to marginal social costs (mech and fiscal externality) and use these approximat
+ions to get
+\size footnotesize
+
+\begin_inset Formula 
+\begin{align*}
+MVPF^{\text{Info}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\approx0.89\\
+MVPF^{\text{I + A}} & =\frac{-\epsilon_{L}\pi_{L}\overline{B}\frac{dA_{L}}{dT}-\epsilon_{H}\pi_{H}B_{min}\frac{dA_{H}}{dT}-\left(A_{H}-A_{L}+\frac{dA_{H}}{dT}+\frac{dA_{L}}{dT}\right)\frac{dc}{dT}}{\left(\pi_{L}\overline{B}+g\right)\frac{dA_{L}}{dT}+\left(\pi_{H}B_{min}+g\right)\frac{dA_{H}}{dT}}\\
+ & \approx0.93
+\end{align*}
 
 \end_inset
 
