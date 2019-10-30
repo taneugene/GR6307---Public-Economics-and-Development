@@ -120,7 +120,7 @@
 \use_dash_ligatures false
 \graphics default
 \default_output_format default
-\output_sync 1
+\output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize default
@@ -14269,6 +14269,543 @@ Transfer Design
 \end_inset
 
 Transfer Design: What is the Benefit?
+\end_layout
+
+\begin_layout Subsection
+[ET] Baird McIntosh & Özler (QJE 2011) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Cash or Condition? Evidence from a Cash Transfer Experiment
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+RCT in Malawi with CCT and UCT treatment + control.
+ 
+\end_layout
+
+\begin_layout Itemize
+Are conditions good or bad? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
++CCT - market failures (like underinvestment in education or health) can
+ be addressed with conditions
+\end_layout
+
+\begin_layout Itemize
++CCT - political palatability to middle and upper class programs
+\end_layout
+
+\begin_layout Itemize
++UCT - What is the marginal contribution of CCTs? If unclear, assume that
+ rational poor will would use money in a way that benefits them most.
+\end_layout
+
+\begin_layout Itemize
+Do CCTs end up distorting other behaviors
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In addition to just observing education, also observe: human capital formation
+ (english, math, cognitive skills), marriage, childbearing.
+ 
+\end_layout
+
+\begin_layout Itemize
+Marriage and schooling practically mutually exclusive in study
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Overview 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade off inherent to CCT programs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dropout rates decline in both UCT and CCT, effect of UCT is 43% as large.
+\end_layout
+
+\begin_layout Itemize
+CCT had significantly better comprehension and math but not UCT
+\end_layout
+
+\begin_layout Itemize
+But UCT reduced marriage (27%) and pregnancy (44%) rates more
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Past studies might have overlooked effects of denying benefits to those
+ who fail to satisfy conditions
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Study Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Malawi (2008 GNI = $760$, secondary school enrollment =24%, and 81% living
+ in rural areas)
+\end_layout
+
+\begin_layout Itemize
+Zomba district, stratification on distance from Zomba city up to 16km.
+ 
+\end_layout
+
+\begin_layout Itemize
+176 EAs selected and each dwelling visited to make a full-listing of never-marri
+ed females.
+\end_layout
+
+\begin_layout Itemize
+Treatment status at the EA level
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CCT: 46 EAs, 
+\end_layout
+
+\begin_layout Itemize
+UCT: 27 EAs, 
+\end_layout
+
+\begin_layout Itemize
+15 with no cash transfers (control?)
+\end_layout
+
+\begin_layout Itemize
+88 EAS for control
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+UCTs paid the same amount as with the conditional transfer.
+\end_layout
+
+\begin_layout Itemize
+Lottery held to determine transfer amount ($1,2,3,4,5 to girls), ($4,6,8,10)
+ to parents
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Estimation Strategy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y_{i}=T_{i}^{C}\gamma^{C}+T_{i}^{U}\gamma^{U}+X_{i}\beta+\epsilon_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Y_{i}$
+\end_inset
+
+- outcome variable for individual i
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{i}^{c}$
+\end_inset
+
+and 
+\begin_inset Formula $T_{i}^{U}$
+\end_inset
+
+binary indicators ofr offers to be in the CCT and the UCT arms
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $X_{i}$
+\end_inset
+
+vector of baseline characteristics: household asset index, highest grade
+ attended, dummy variable for 'having started sexual activity' and dummy
+ variables for age - chosen because they are strongly predictive of schooling
+ outocmes and so improve precision.
+ 
+\end_layout
+
+\begin_layout Itemize
+cluster errors at the EA level
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Enrolment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 2.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Misreporting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 3.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Attendance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 4.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Attainment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 5.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Marriage & Pregnancy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Baird et al 6.png
+	width 92page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Making sense of results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Consider 3 groups:
+\end_layout
+
+\begin_layout Enumerate
+UCT compliers: - UCT would be sufficient to keep girls enrolled in school
+ - receive payments in both UCT and CCT case - differe only on behavior
+ changes on the intensive margin arising from conditionality
+\end_layout
+
+\begin_layout Enumerate
+CCT compliers - enrolled in CCT but not in CCT: conditionality generates
+ a differential impact on enrollment by lowering the opportunity cost of
+ schooling
+\end_layout
+
+\begin_layout Enumerate
+noncompliers - those who dropout of school in either treatment arm.
+ 
+\end_layout
+
+\begin_layout Standard
+Depending on the numbers of 2 vs 1, a CCT or a UCT may be more beneficial.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+[ET] Baird et al (2011): Discussion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only way CCTs can reduce marriage rates at follow-up is by averting dropouts
+ 
+\end_layout
+
+\begin_layout Itemize
+UCTs avoid marriage and pregnancy rate also among drop-outs, (in this experiment
+, this group is much larger).
+ 
+\end_layout
+
+\begin_layout Itemize
+Heterogeneity - increasing transfer amounts or varying the recipient in
+ the household doesn't have effects on CCTs, but they do on on UCTs (performance
+ on test scores).
+ 
+\end_layout
+
+\begin_layout Itemize
+Actual amount of transfers made per person is 19% lower in the CCT arm
+\end_layout
+
+\begin_layout Itemize
+Poverty a cause of school drop out – income effects from UCT might be more
+ effective than school CCTS in reducing teen marriage and pregnancy.
+\end_layout
+
+\begin_layout Itemize
+Income support might improve outcomes more cost-effectively than CCTs.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
