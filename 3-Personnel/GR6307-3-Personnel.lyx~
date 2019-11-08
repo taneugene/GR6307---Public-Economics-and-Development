@@ -235,7 +235,7 @@ Michael Carlos Best
 \end_layout
 
 \begin_layout Date
-Fall 2019
+Spring 2019
 \begin_inset Newline newline
 \end_inset
 
@@ -1103,6 +1103,452 @@ Principal monitors less
 
 \end_deeper
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+Schleifer and Vishny (1991) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Corruption
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Schleifer + Vishny 1991: Intro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Corruption is the sale by government officials of government property for
+ personal game.
+ 
+\end_layout
+
+\begin_layout Itemize
+How is the corruption network organized?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3 regimes: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No corruption
+\end_layout
+
+\begin_layout Itemize
+Assured good
+\end_layout
+
+\begin_layout Itemize
+Non-assured good
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Why is corruption more distortionary than taxation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some corruption might be desirable - piece-rate for government employees,
+ overcome regulations
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Schleifer + Vishny 1991: Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2 types of corruption, where p is the price to be paid to the government
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Without theft - p+bribe - licenses –> always a higher price
+\end_layout
+
+\begin_layout Itemize
+With theft - bribe < p - letting goods through border for less than official
+ duty –> Could be a higher price
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Government agent maximizes bribe collections
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If a monopolist, MR = MC
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename schleifer2.png
+	lyxscale 20
+	width 40page%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename schleifer1.png
+	lyxscale 20
+	width 40page%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Schleifer + Vishny 1991: Observations from simple model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Corruption without theft -
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+buyers and sellers have their interests aligned.
+ 
+\end_layout
+
+\begin_layout Itemize
+Bribe = revenue maximizing commodity tax
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Corruption with theft 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Buyers and sellers are against each other
+\end_layout
+
+\begin_layout Itemize
+Spread of corruption: if business A reduces costs by paying bribes, then
+ others must do so or they will not be competitive.
+ (Doesn't apply to corruption without theft)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Spread of corruption 2: Competition between officials - if those who collect
+ more keep their jobs, then corruption will spread
+\end_layout
+
+\begin_layout Itemize
+Taxes kept by government, not by bureaucrats
+\end_layout
+
+\begin_layout Itemize
+Penalties do not change problem apart from unless corruption is no longer
+ possible
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Reduce supply and raise bribe
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Schleifer + Vishny 1991: IO of corruption
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Is the bureaucrat alone?
+\end_layout
+
+\begin_layout Itemize
+Complementary government goods (water, fire, police) mean that different
+ agents can:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Collude and maximize joint revenue (take into account cross price elasticities)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ Communist Russia, Philippines
+\begin_inset Formula 
+\[
+MR_{1}+MR_{2}\frac{dx_{2}}{dx_{1}}=MC_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enforcement similarly probalematic like oligopoly
+\end_layout
+
+\begin_layout Itemize
+Monitoring system? small n? observable spending?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Not collude and maximize individual revenue
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ India, African countries, post-communist russia
+\begin_inset Formula 
+\[
+MR_{1}=MC_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In free entry, cost of doing business goes to infinity - worst for efficiency
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Compete in the provision of goods (e.g.
+ multiple fire departments, tollbooths)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ US passports or driver's license
+\end_layout
+
+\begin_layout Itemize
+Drives prices down to 0 - best for efficiency
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Schleifer and Vishny (1991): Effects on government
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Autocratic to democratic conversion leads to more corruption:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+New governments lose monopoly (joint bribe max)
+\end_layout
+
+\begin_layout Itemize
+Multiple agencies take bribes (inidividual bribe max) –> less efficiency
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Political competition within the ruling parties + more public pressure means
+ more competition 
+\end_layout
+
+\begin_layout Itemize
+To reduce corruption without theft - introduce competition between bureaucrats
+\end_layout
+
+\begin_layout Itemize
+To reduce corruption with theft - Competition increases theft while reducing
+ bribes - intensively monitor theft while creating competition
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Schleifer and Vishny (1991): Secrecy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Joint revenue max is like taxes except for whether it goes into treasury
+ or pocket
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If pocket and treasury are the same, then taxes and bribes are the same
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Corruption is usually illegal and must be kept secret –> more distortionary
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ ban imports to induce substitution into others
+\end_layout
+
+\begin_layout Itemize
+prohibit entry of firms to raise bribe revenue from existing monopolies
+\end_layout
+
+\begin_layout Itemize
+Costs of corruption - resources might be spent to avoid detection or to
+ secure position
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Corruption opportunities on buying unique and expensive machine are much
+ better than buying cheap generic products through over-invoicing (defense,
+ infrastructure projects) –> huge costs of corruption (education + health)
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Subsection
 Banerjee, Hanna & Mullainathan (2012) 
 \begin_inset ERT
