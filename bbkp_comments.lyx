@@ -1,0 +1,435 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme{Warsaw}
+% or ...
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bandiera et al 2019 - Summary
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Field experiment to study allocation of authority between procurement agents
+ and their auditors in Punjab, Pakistan.
+ 
+\end_layout
+
+\begin_layout Itemize
+Finds a reduction in prices of about 9% by giving auditors more autonomy
+ (discretionary spending done before auditing rather than after auditing).
+ Smaller (2%) non-significant impact for incentives (performance pay) and
+ similar effect to autonomy when applying both treatments.
+ 
+\end_layout
+
+\begin_layout Itemize
+My comments summary: only minor comments because I thought it was a very
+ good and interesting paper.
+ Will suggest some additional robustness checks and things to address in
+ theory.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename bandiera1.png
+	lyxscale 20
+	height 80pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Small picture comment: Proof errors/typos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+2 minor errors on the proofs that do not disprove the propositions:
+\end_layout
+
+\begin_layout Itemize
+c is missing from the proof of proposition 1
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+in the numerator of 
+\begin_inset Formula $\frac{\frac{\delta p}{\delta a}}{p}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{\delta}{\delta a}\left({\normalcolor c+}\frac{\gamma}{\mu(1-a)+b}+(1-a)\omega\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+in the numerator of 
+\begin_inset Formula $\frac{\frac{\delta p}{\delta b}}{p}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{\delta}{\delta b}\left({\normalcolor c+}\frac{\gamma}{\mu(1-a)+b}+(1-a)\omega\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The 
+\begin_inset Formula $\frac{\delta p}{\delta b}db$
+\end_inset
+
+ term in the proof of proposition 2 is missing a square term 
+\begin_inset Formula 
+\[
+-\frac{\gamma}{(\mu(1-a)+b)^{{\normalcolor 2}}}db
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Small picture comment: Additional analysis of product attributes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The paper describes in 5.1 three measures of variety in the goods being purchased
+, but only shows results on the latter 2 
+\emph on
+scalar 
+\emph default
+and 
+\emph on
+coarse
+\emph default
+.
+ What else could you do with the raw attributes?
+\end_layout
+
+\begin_layout Itemize
+Whereas using scalar and coarse proves that treatments don't have an effect
+ on the amount, variety, or composition of goods purchased, they don't prove
+ that the attributes don't change because of your treatment.
+\end_layout
+
+\begin_layout Itemize
+If attributes do change as a result of treatment, you could determine a
+ potential mechanism through which markup might operate (e.g.
+ if there's an attribute column for vendor, you might find potential vendors
+ are more likely to bribe POs.)
+\end_layout
+
+\begin_layout Itemize
+If attributes don't change as a result of treatment, you have additional
+ robustness of your treatment to changes in attributes
+\end_layout
+
+\begin_layout Itemize
+How might you test this? Potentially run PCA on X to get the principal component
+s of X and run regressions on the top couple of PCs rather than on scalar
+ and coarse.
+ Then, if there are any significant PCs, then you could look at the X columns
+ that have the largest basis for those PCs and run regressions on those
+ as the dependent variable.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Big picture comment: a dynamic game explanation for autonomy's large effects?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+What if the law actually changed?
+\end_layout
+
+\begin_layout Itemize
+Treat as a dynamic game where the PO is following the 
+\emph on
+active 
+\emph default
+waste interpretation.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In year 2: if I were a risk-averse PO were in the autonomy treatment group,
+ knowing that it is an experiment, a potential strategy to maximize x in
+ the long run might be to initially show cost savings from the additional
+ autonomy SO THAT the government permanently gives more autonomy in the
+ future.
+\end_layout
+
+\begin_layout Itemize
+At the beginning of year 3: because of 9% cost savings due to autonomy (that
+ the POs do), POs might expect the government institutes autonomy policy
+ for the next 
+\emph on
+n 
+\emph default
+years.
+ 
+\end_layout
+
+\begin_layout Itemize
+In years 3-n: Because of the new law, and with more experience (either because
+ of actual years under the regime or because of experimentation) under the
+ autonomy regime, the PO might be better able to capture more of the markup
+ x over the long run than they would do in year 2.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Perhaps they are still using POPS and you could get data assuming the treatment
+ continued?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Other small comments
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Alignment is defined differently in different places in the paper
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+approves transactions smoothly (pg 4)
+\end_layout
+
+\begin_layout Itemize
+AG June share
+\end_layout
+
+\begin_layout Itemize
+Surely the most 'natural' measure of alignment is the proportion of times
+ the AG asks for more paperwork from the PO, not the June share?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+I'm sure data on this exists
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\end_body
+\end_document
