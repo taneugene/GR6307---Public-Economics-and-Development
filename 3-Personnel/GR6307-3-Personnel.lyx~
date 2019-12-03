@@ -1541,14 +1541,6 @@ Corruption opportunities on buying unique and expensive machine are much
 \end_layout
 
 \end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
 \begin_layout Subsection
 Banerjee, Hanna & Mullainathan (2012) 
 \begin_inset ERT
@@ -11501,6 +11493,458 @@ status open
 \end_layout
 
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+de Ree, Muralidharan, Pradhan, Rogers 2017 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Double for Nothing? Experimental Evidence on an Unconditional Teacher Salary
+ Increase in Indonesia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ [ET]
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al 2017: Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Higher Salaries important to attract, retain, and motivate high-quality
+ employees, and to deliver services effectively in public sector.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ Ford's 5 dollar workday increased worker productivity
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What is the impact on incumbent workers?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Double pay from 50th percentile to 90th percentile
+\end_layout
+
+\begin_layout Itemize
+Improves pay, satisfaction, time available to work
+\end_layout
+
+\begin_layout Itemize
+But no impact on teacher subject knowledge
+\end_layout
+
+\begin_layout Itemize
+Potential gain-loss asymmetry around a reference wage point, with worker
+ performance deteriorating in response to a pay cut relative to expectations
+ but not improving in response to an unconditional increase in pay
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Impact on students?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+none 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If only LR/extensive margin impacts on teacher productivity, then there
+ are cheaper options than doubling salary.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al 2017: Certification Process and Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+submit a portfolio of their teaching materials and achievements.
+ Failure –> two weeks of additional training to attain certification.
+\end_layout
+
+\begin_layout Itemize
+3 reasons 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+"ideas" - (people genuinely thinking that the salary increase would improve
+ education outcomes)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Interests
+\begin_inset Quotes erd
+\end_inset
+
+ - (teacher unions effectively advocating for their interests),
+\end_layout
+
+\begin_layout Itemize
+"institutions" (the spending floor on education in the new Indonesian Constituti
+on allowed for a large increase in education spending)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Test whether large pay increase helped to improve effort and productivity
+ of incumbent teachers through any mechanism.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+360 schools - except ones that were 
+\begin_inset Quotes eld
+\end_inset
+
+too small, were too dangerous to visit
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To ensure that other teachers would have no incentive to transfer to treatment
+ schools, only teachers who worked in the treatment schools at the start
+ of the experiment were eligible for this immediate access.
+\end_layout
+
+\begin_layout Itemize
+no public announcement but letters sent to accelerate process of certification
+ in 2009, receiving base pay in 2010.
+ 
+\end_layout
+
+\begin_layout Itemize
+2:1 ratio of control: treatment
+\end_layout
+
+\begin_layout Itemize
+stratified by district, school type, and school size (n teachers),
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al 2-17: Data 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+school facilities, finances, and other school-level data from head-teacher
+ interviews.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+demographics, experience, pay, outside jobs, income (from teaching and other
+ sources), and job satisfaction
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+school and teacher interviews to map teachers to specific classrooms and
+ subjects
+\end_layout
+
+\begin_layout Itemize
+multiple-choice tests of math, science, and Indonesian, and students in
+ junior secondary schools were also tested in English.
+ 
+\end_layout
+
+\begin_layout Itemize
+short demographic survey to collect basic information on household assets
+ from students.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al.
+ 2017: Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Model
+\end_layout
+
+\begin_layout Itemize
+Intent to treat estimate (T = student outcomes)
+\begin_inset Formula 
+\[
+T_{ijks}(Y_{n})=\beta_{0}+\beta_{1}.\bar{T_{ijks}(Y_{0})+}B_{j}T_{ijks(Y_{0})}+\beta_{2}Treatment_{k}+\beta_{Z_{ST}}Z_{ST}+\epsilon_{ijks}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+IV estimate (certified and paid) to estimate direct impacts - prevent effects
+ of endogenous re-assignment of certified teachers within treatment schools
+ to weaker students
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula 
+\[
+T_{ijks}(Y_{n})=\beta_{0}+\beta_{1}.\bar{T_{ijks}(Y_{0})+}B_{j}T_{ijks}(Y_{0})+\beta_{2}Certified_{ijks}(Y_{2})+\beta_{Z_{ST}}Z_{ST}+\epsilon_{ijks}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula 
+\[
+T_{ijks}(Y_{n})=\beta_{0}+\beta_{1}.\bar{T_{ijks}(Y_{0})+}B_{j}T_{ijks}(Y_{0})+\beta_{2}[Certified_{ijks}(Y_{3})+\gamma Certified_{ijks}(Y_{2})]+\beta_{Z_{ST}}Z_{ST}+\epsilon_{ijks}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al 2017: Certification over time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename deree1.png
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al 2017: Teacher Level Impact
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename deree2.png
+	lyxscale 40
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al.
+ 2017: Impacts on Students
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename deree5.png
+	lyxscale 20
+	width 100page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+de Ree et al.
+ 2017: Impacts on Students
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename deree4.png
+	lyxscale 60
+	width 100page%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 \begin_inset Argument 2
 status open
@@ -18100,6 +18544,319 @@ status open
 
 \end_layout
 
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Subsection
+Deserranno (2017) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+Financial Incentives as Signals: Experimental Evidence from the Recruitment
+ of Village Promoters in Uganda
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ [ET]
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deserrano (2017): Intro
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Are more prosocial people less likely to apply to prosocial jobs that pay
+ more?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lucrative positions might signa that they have less of a positive externality
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Community Health Promoter job in Uganda for BRAC
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Social tasks: visit households, educate them on health issues, provide pre
+ and postnatal checks
+\end_layout
+
+\begin_layout Itemize
+Business Tasks: sell health products (pain relievers, soap, oral rehydration
+ salts) but also non-health products (salt, oil, napkins)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2 separate experiments
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Frame a job as a low paying, medium paying, or high paying job, and see
+ the effect on perceived job attributes
+\end_layout
+
+\begin_layout Itemize
+In context of microfinance lending groups, frame job as above and see the
+ effect on applications where one person is selected from each group
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deserrano (2017): Information Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Questionnaire about socioeconomic preferences
+\end_layout
+
+\begin_layout Enumerate
+Told BRAC's presence and are given a leaflet advertising CHP position with
+ the following treatment:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Graphics
+	filename desarollo1.png
+	lyxscale 20
+	height 60pheight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A second set of questions with expected earning distribution and perceptions
+ about the job
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deserrano (2017): Recruitment Experiment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Steps 1-2 in Information experiment
+\end_layout
+
+\begin_layout Enumerate
+Taken into private room 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Answer any questions about position
+\end_layout
+
+\begin_layout Enumerate
+Told CHP is independent of microfinance eligibility
+\end_layout
+
+\begin_layout Enumerate
+Asked whether she wanted to apply
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+All women in group that are interested interviewed one-on-one
+\end_layout
+
+\begin_layout Enumerate
+Hiree appointed publically in group
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename desarollo2.png
+	lyxscale 20
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename desarollo3.png
+	lyxscale 20
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deserrano (2017): Quick Criticism
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why not do both in one experiment?
+\end_layout
+
+\begin_layout Itemize
+Because high pay jobs are perceived as less prosocial may not mean that
+ signalling the incomplete information m why more prosocial people are less
+ likely to apply
+\end_layout
+
+\begin_layout Itemize
+Assumes that complete information about the job would mean that the prosocial
+ worker would apply...
+ this might not be true.
+ e.g.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+prosocial people might not apply to high paying prosocial jobs because they
+ believe others (who are in the villlage) need the money more.
+\end_layout
+
+\begin_layout Itemize
+or if they believe that the 'difference they make' is whether they contribute
+ to something that would not otherwise be done, they might not apply to
+ a job they are well suited for if they believed that someone else would
+ apply and get the job
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Section
 Open Questions
